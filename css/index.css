@@ -1,0 +1,522 @@
+/*公共样式*/
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+/*头部*/
+header{
+    background: url(../images/background.png);
+    height: 988px;
+    width: 100%;
+    color: #ffffff;
+    min-width: 1170px;
+}
+h1{
+    font-size: 62px;
+    padding-top: 210px;
+}
+header > p{
+    font-size: 20px;
+    color: #c2c1bf;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+header form{
+    width: 970px;
+    border:1px solid #565450;
+    margin: 100px auto 0 auto;
+    padding-bottom: 50px;
+}
+header form p{
+    font-size: 12px;
+    color: #595753;
+}
+header form p:first-of-type{
+    margin: 55px 0 20px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+header form p:last-of-type{
+    margin-bottom: 45px;
+}
+header input{
+    width: 270px;
+    height: 50px;
+    border:1px solid #565450;
+    background: transparent;
+    margin-right: 30px;
+    outline: none;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #65625e;
+}
+header input:first-of-type{
+    color: #ffffff;
+
+}
+header input[type="submit"]{
+    background: #ffffff;
+    width: 125px;
+    border:none;
+    color: #000;
+}
+/*中间*/
+section{
+
+}
+/*ready*/
+section .ready{
+    margin-top: 85px;
+}
+section .ready>p{
+    font-size: 14px;
+}
+section .ready h2{
+    font-size: 42px;
+    width: 850px;
+    margin: 45px auto 80px auto;
+}
+section .ready ul{
+    width: 1110px;
+    margin: 0 auto;
+    text-align: left;
+}
+section .ready li{
+    float: left;
+    width: 470px;
+    margin-bottom: 70px;
+}
+section .ready li:nth-of-type(odd){
+    padding-right: 170px;
+}
+section .ready img{
+    float: left;
+    vertical-align: top;
+}
+section .ready h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+section .ready li p{
+    font-size: 16px;
+    color: #838383;
+    line-height: 28px;
+}
+/*supportive*/
+section .supportive{
+    margin-top: 70px;
+    height: 798px;
+    width: 100%;
+    min-width: 1170px;
+    background: url(../images/centerback.png);
+}
+section .supportive .left{
+    float: left;
+    width: 520px;
+    text-align: left;
+    padding-left: 20px;
+}
+section .supportive h2{
+    font-size: 42px;
+    color: #ffffff;
+    margin-top: 180px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+section .supportive .left p{
+    color: #a7aaa2;
+    font-size: 18px;
+    width: 415px;
+    line-height: 30px;
+    margin-bottom: 55px;
+}
+section .supportive .left a{
+    display: block;
+    float: left;
+    width: 240px;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 60px;
+    border-radius: 5px;
+}
+section .supportive .left a:first-of-type{
+    background: #ffffff;
+    color: #000;
+    margin-right: 30px;
+}
+section .supportive .left a:last-of-type{
+    color: #ffffff;
+    border:1px solid #6b716b;
+}
+section .supportive .right{
+    float: right;
+    border:1px solid #929393;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 590px;
+}
+section .supportive .inter{
+    background: #ffffff;
+    padding:0 10px 90px 10px;
+}
+section .supportive  h5{
+    font-size: 25px;
+    padding:70px 0 15px 0;
+}
+section .supportive .inter > p{
+    color: #989c98;
+
+}
+section .supportive ul{
+    margin-top: 70px;
+
+}
+section .supportive li{
+    float: left;
+    width: 175px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #888888;
+    padding-bottom: 30px;
+}
+section .supportive li:last-of-type{
+    /*margin-right: 30px;*/
+}
+section .supportive li a{
+    display: block;
+    color: #000;
+
+}
+section .supportive li h6{
+    font-size: 17px;
+    margin: 15px 0 20px 0;
+    text-align: left;
+    padding:0 15px;
+}
+section .supportive li p{
+    color: #989c98;
+    font-size: 10px;
+    text-align: left;
+    padding:0 15px;
+    height: 35px;
+    overflow: hidden;
+}
+/*product*/
+section .product{
+    margin-top: 95px;
+    padding-bottom: 100px;
+    min-width: 1170px;
+    border-bottom: 1px solid #e7e7e7;
+}
+section .product h3{
+    font-size: 42px;
+}
+section .product .inter{
+    width: 100%;
+    min-width: 1170px;
+    border-bottom: 1px solid #e7e7e7;
+}
+section .product ul{
+    margin: 90px auto 0 auto;
+    padding-bottom: 75px;
+    width: 980px;
+
+}
+section .product li{
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+section .product li:last-of-type{
+    margin-right: 0;
+}
+section .product li p{
+    color: #989898;
+    margin-top: 25px;
+    line-height: 26px;
+    font-size: 16px;
+}
+section .product li h4{
+    font-size: 35px;
+}
+section .product h5{
+    font-size: 20px;
+}
+section .inmprove,section .choose{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+section .inmprove p,section .choose p{
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #6e6e6e;
+}
+section .inmprove{
+    margin-top: 110px;
+}
+section .choose{
+    margin-top: 75px;
+    position: relative;
+}
+section .inmprove img{
+    float: left;
+    margin-right: 100px;
+}
+section .choose .left{
+   float: left;
+   width: 370px;
+   margin-right: 50px;
+
+}
+/*teacher*/
+section .teacher{
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    
+}
+section .teacher h3{
+    margin-top: 100px;
+    font-size: 42px;
+}
+section .teacher p{
+    font-size: 18px;
+    color: #5a5a5a;
+    line-height: 32px;
+    margin: 15px auto 60px auto;
+    width: 710px;
+}
+section .teacher li{
+    float: left;
+    margin-bottom: 30px;
+    position: relative;
+    width: 460px;
+    height: 340px;
+}
+section .teacher li:nth-of-type(odd){
+    margin-right: 30px;
+    margin-left: 100px;
+
+}
+section .teacher img{
+    width: 460px;
+}
+section .teacher li:hover .hover{
+    display: block;
+}
+section .teacher .hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+section .teacher .hover h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 110px;
+}
+section .teacher .hover p{
+    font-size: 12px;
+    color: #8e8480;
+    margin-top: 20px;
+    width: 460px;
+    margin-bottom: 0;
+}
+section .teacher .hover ul{
+    margin-top: 35px;
+    height: 60px;
+    width: 270px;
+    margin: 35px auto 0 auto;
+}
+section .teacher .hover li{
+    float: left;
+    width: 85px;
+    height: 60px;
+    margin:0;
+}
+section .teacher .hover a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/hover.png) no-repeat;
+
+}
+section .teacher .hover li:nth-of-type(2) a{
+    background-position: -92px 0;
+}
+section .teacher .hover li:last-of-type a{
+    background-position: -185px 0;
+}
+/*contact*/
+section .contact{
+    border-top: 1px solid #e7e7e7;
+}
+section .contact .inter{
+    width: 1070px;
+    padding-left: 100px;
+    margin: 0 auto;
+}
+section .contact{
+    border-top: 1px solid #e7e7e7;
+    padding-top: 65px;
+}
+section .contact form{
+    width: 470px;
+    float: left;
+    border:1px solid #e7e7e7;
+    border-radius: 5px;
+    margin-right: 130px;
+}
+section .contact input{
+    width: 350px;
+    border:1px solid #e7e7e7;
+    padding-left: 20px;
+    color: #e7e7e7;
+    height: 50px;
+    margin-bottom: 30px;
+}
+section .contact input[type="submit"]{
+    width: 370px;
+    background: #000;
+    color: #ffffff;
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+section .contact p{
+    font-size: 16px;
+    margin: 40px 0;
+}
+section .contact textarea{
+    width: 350px;
+    height: 120px;
+    padding-left: 20px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+    color: #e7e7e7;
+    padding-top: 20px;
+}
+section .contact .right{
+    float: left;
+    text-align: left;
+}
+section .contact h3{
+    font-size: 42px;
+    margin: 97px 0 25px 0;
+}
+
+section .contact .right p{
+    width: 370px;
+    color: #838383;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 0 65px 0;
+}
+section .contact li{
+    height: 50px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+section .contact img{
+    float: left;
+    margin-right: 15px;
+}
+/*footer*/
+footer{
+    margin-top: 65px;
+    background: #000;
+    width: 100%;
+    min-width: 1170px;
+    color: #ffffff;
+    padding-top: 85px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+footer .inter{
+    width: 1170px;
+    margin: 0 auto;
+}
+footer .inter > div{
+    float: left;
+    width: 270px;
+    margin-right: 30px;
+}
+footer .inter > div:last-of-type{
+    margin-right: 0;
+}
+footer h3{
+    font-size: 14px;
+}
+footer ul{
+    margin-top: 15px;
+}
+footer li{
+    height: 50px;
+    line-height: 50px;
+}
+footer a{
+    font-size: 16px;
+    color: #535353;
+}
+footer .enjoy p{
+    color: #535353;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+footer .enjoy ul{
+    margin-top: 40px;
+}
+footer .enjoy li{
+    height: 27px;
+    width: 27px;
+    float: left;
+}
+footer .enjoy a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/spirit.png) no-repeat;
+}
+footer .enjoy li:nth-of-type(2) a{
+    background-position: -40px 0;
+}
+footer .enjoy li:nth-of-type(3) a{
+    background-position: -80px 0;
+}
+footer .enjoy li:nth-of-type(4) a{
+    background-position: -120px 0;
+}
+footer .enjoy li:last-of-type a{
+    background-position: -160px 0;
+}
